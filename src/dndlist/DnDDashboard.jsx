@@ -28,7 +28,7 @@ export default function DnDDashboard() {
   return (
     <Route path={path}>
       <div className="viewbox">
-        <Header text="dnd" libraries={libUsed} />
+        <Header text="dnd" libraries={libUsed} blogpost="https://marcusbory.github.io/posts/dnd-persistent-ordering/"/>
         <DnDDroppable />
       </div>
     </Route>
